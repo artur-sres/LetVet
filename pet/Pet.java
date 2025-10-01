@@ -26,8 +26,28 @@ public class Pet {
     private boolean castrado;
 
     //Costrutor
-    public Pet(){
-
+    public Pet(Tutor tutor, String caminhoImgPet, String nome, String especie, String raca, String sexo,
+            Data dataNascimento, double peso, String temperamento, String status, Diagnostico diagnosticoAtual,
+            CarteiraVacinacao carteiraVacina, String condEspecial, String[] alergias, Historico historico,
+            boolean castrado) {
+        this.tutor = tutor;
+        this.caminhoImgPet = caminhoImgPet;
+        this.nome = nome;
+        this.especie = especie;
+        this.raca = raca;
+        this.sexo = sexo;
+        this.dataNascimento = dataNascimento;
+        this.peso = peso;
+        this.temperamento = temperamento;
+        this.status = status;
+        this.diagnosticoAtual = diagnosticoAtual;
+        this.carteiraVacina = carteiraVacina;
+        this.condEspecial = condEspecial;
+        this.alergias = alergias;
+        this.historico = historico;
+        this.castrado = castrado;
     }
+
+    
 }
 
