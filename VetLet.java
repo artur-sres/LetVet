@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import pet.auxiliares.Data;
+import pet.auxiliares.Tutor;
 public class VetLet {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -22,6 +23,8 @@ public class VetLet {
         switch (escolha) {
             case 0:
                 System.out.println("Para cadastrar um novo pet, por favor, forneça as informações necessárias:");
+                System.out.println("Primeiro precisamos saber mais sobre você, tutor!");
+                Tutor tutor = Tutor.tutorReader(scanner);
                 
                 break;
             case 1:
