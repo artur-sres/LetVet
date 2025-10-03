@@ -8,7 +8,6 @@ import pet.auxiliares.Data;
 public class Pet {
     private Tutor tutor;
 
-    private String caminhoImgPet;
     private String nome;
     private String especie;
     private String raca;
@@ -26,12 +25,9 @@ public class Pet {
     private boolean castrado;
 
     //Costrutor
-    public Pet(Tutor tutor, String caminhoImgPet, String nome, String especie, String raca, String sexo,
-            Data dataNascimento, double peso, String temperamento, String status, Diagnostico diagnosticoAtual,
-            CarteiraVacinacao carteiraVacina, String condEspecial, String[] alergias, Historico historico,
-            boolean castrado) {
+    public Pet(Tutor tutor, String nome, String especie, String raca, String sexo, Data dataNascimento, double peso, String temperamento, String status, 
+            Diagnostico diagnosticoAtual, CarteiraVacinacao carteiraVacina, String condEspecial, String[] alergias, Historico historico, boolean castrado) {
         this.tutor = tutor;
-        this.caminhoImgPet = caminhoImgPet;
         this.nome = nome;
         this.especie = especie;
         this.raca = raca;
