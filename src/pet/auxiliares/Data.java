@@ -1,4 +1,4 @@
-package pet.auxiliares;
+package src.pet.auxiliares;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package pet.auxiliares;
+package src.pet.auxiliares;
 public class Diagnostico {
     private String nome;
     private String duracao;

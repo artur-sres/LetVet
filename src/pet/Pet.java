@@ -1,9 +1,9 @@
-package pet;
-import pet.auxiliares.CarteiraVacinacao;
-import pet.auxiliares.Diagnostico;
-import pet.auxiliares.Historico;
-import pet.auxiliares.Tutor;
-import pet.auxiliares.Data;
+package src.pet;
+import src.pet.auxiliares.CarteiraVacinacao;
+import src.pet.auxiliares.Data;
+import src.pet.auxiliares.Diagnostico;
+import src.pet.auxiliares.Historico;
+import src.pet.auxiliares.Tutor;
 
 public class Pet {
     private Tutor tutor;

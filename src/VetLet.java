@@ -1,6 +1,8 @@
+package src;
 import java.util.Scanner;
-import pet.auxiliares.Data;
-import pet.auxiliares.Tutor;
+
+import src.pet.auxiliares.Data;
+import src.pet.auxiliares.Tutor;
 public class VetLet {
     public static void main(String[]  args) {
         Scanner scanner = new Scanner(System.in);

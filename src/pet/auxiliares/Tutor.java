@@ -1,4 +1,4 @@
-package pet.auxiliares;
+package src.pet.auxiliares;
 import java.util.Scanner;
 
 public class Tutor {

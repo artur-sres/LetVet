@@ -1,4 +1,4 @@
-package pet.auxiliares;
+package src.pet.auxiliares;
 public class CarteiraVacinacao {
     private Vacina[] carteiraVacinacao;
 }
