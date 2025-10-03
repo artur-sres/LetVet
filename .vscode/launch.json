@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "VetLet",
+            "request": "launch",
+            "mainClass": "src.VetLet",
+            "projectName": "LetVet_c3282001"
+        },
+        {
+            "type": "java",
+            "name": "Executar Programa VetLet",
+            "request": "launch",
+            "mainClass": "VetLet",
+            "args": "cadastrar \"Rex\" \"Cachorro\""
+        }
+    ]
+}

@@ -24,6 +24,7 @@ public class Data {
 
     //Data reader with validation
     public static Data dataReader(Scanner scanner){
+        sysrem.out.println("Data de nascimento do pet:");
         int dia, mes, ano;
         while (true) {
             //Day validation
@@ -67,6 +68,7 @@ public class Data {
                     scanner.next(); 
                     continue;
             }
+            scanner.nextLine(); // Clear buffer
             String dataString = dia + "/" + mes + "/" + ano;
             return new Data(dia, mes, ano, dataString);
         }

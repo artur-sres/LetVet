@@ -20,6 +20,7 @@ public class Tutor {
 
     //Tutor reader with validation
     public static Tutor tutorReader(Scanner scanner){
+        System.out.println("Primeiro precisamos saber mais sobre você, tutor!");
         String nome, contatoNumero, contatoEmail;
         scanner.nextLine(); // Clear buffer
 
